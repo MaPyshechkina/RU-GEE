@@ -4,7 +4,7 @@ Grammatical Error Explanation and Russian Error Corpus for the Russian Language
 
 ## Approach
 
-To perform the task of Grammar Error Explanation, we employed an instruction tuning approach. We fine-tuned the `ruGPT3Small` model using labeled data to enhance its capability in identifying and explaining grammatical errors.
+To perform the task of Grammar Error Explanation, we employed an instruction tuning approach. We fine-tuned the `ruGPT3Small` model using labeled data.
 
 ## Data
 
