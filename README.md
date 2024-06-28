@@ -1,5 +1,5 @@
 # RU-GEE
-Grammar Error Explanation and Russian Error Corpus for the Russian Language
+Grammar Error Explanation and Russian Error Corpus
 
 
 ## Approach
