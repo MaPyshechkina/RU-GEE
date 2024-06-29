@@ -65,7 +65,7 @@ training_args = TrainingArguments(
     weight_decay=0.01,
 )
 
-# Определение Trainer
+
 trainer = Trainer(
     model=model,
     args=training_args,
@@ -83,7 +83,7 @@ tokenizer.save_pretrained('./mistakes_det')
 
 
 
-#тест модели С ЛЕЙБЛАМИ
+# ТЕСТ МОДЕЛИ С ЛЕЙБЛАМИ
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -148,7 +148,7 @@ print("Результат инференса:", generated_text)
 # valid_data = Dataset.from_pandas(test_df)
 #
 #
-# model_path = './labels/checkpoint-1944'  # Путь к дообученной модели
+# model_path = './labels/checkpoint-1944'  
 # tokenizer = AutoTokenizer.from_pretrained(model_path)
 # model = AutoModelForCausalLM.from_pretrained(model_path).to('cpu')
 #
