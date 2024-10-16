@@ -31,3 +31,8 @@ We used synthetic data generated with the help of the PyMorphy to create erroneo
 | Ins | 33   | 17  | 2    | 3   |     |
 | Dat | 26   | 3   | 7    | 1   |     |
 | Total | 795 | 242 | 141  | 26  |     |
+
+## Results
+
+The results of the research will be availble soon. 
+
